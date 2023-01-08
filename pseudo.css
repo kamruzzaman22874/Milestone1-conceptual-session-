@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+}
+.nav-heading ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+.nav-heading ul li{
+    padding: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./asset/image/background.jpg') ,linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.banner-details{
+    color: white;
+}
+.banner-details h1{
+    text-align: center;
+    font-size: 50px;
+}
+.banner-details span{
+    color: red;
+}
+.banner-details p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-btn button{
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+#btn{
+    background-color: red;
+    color: white;
+}
+.author-info{
+    background-image: url('./asset/image/footer-bg.png');
+    background-color: rgba(0, 0, 0, 0.95);
+    background-blend-mode: overlay;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-div-info{
+    width: 250px;
+    border-radius: 15px;
+}
+.right-div{
+    display: flex;
+    padding: 80px;
+    gap: 10px;
+}
+.right-div img{
+    width: 100px;
+    background-color: white;
+    margin: 20px 60px;
+}
+.right-div-info-img{
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.right-div-info-img h3{
+    text-align: center;
+}
+.ceo-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.ceo-info::after{
+    border-right: 1px solid red;
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 80%;
+    right: -50px;
+}
+.ceo-info img{
+    border-radius: 50%;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.more-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.more-btn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.service-list{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ol li{
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.phone-call{
+    display: flex;
+    background-color: red;
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    width: 70%;
+    margin:0 auto;
+    border-radius: 30px;
+    position: relative;
+    bottom: 80px;
+    color: white;
+    font-weight: 700;
+    
+}
+.phone-call img{
+    width: 60px;
+    margin-right: 15px;
+}
+.phone-info{
+    padding-right: 40px;
+    border-right: 1px solid black;
+}
+.appoinment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appoinment button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+.phone-calls{
+    display: flex;
+}
+.blogs{
+    text-align: center;
+}
+.blogs h1{
+     font-size: 50px;
+}
+.blog-author{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color: rgb(74, 72, 72);
+    
+}
+.blog-author img{
+    width: 350px;
+    border-radius: 20px;
+}
+.blog-author-info{
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+}
+.footer-main{
+    background-image: url('./asset/image/footer-bg.png');
+    color: white;
+    background: rgba(17, 16, 16, 0.95);
+    background-blend-mode: overlay;
+}
+.footer{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+hr{
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+.footer h4{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.footer p{
+    line-height: 20px;
+}
+.heading{
+    text-align: center;
+    padding: 40px;
+}
